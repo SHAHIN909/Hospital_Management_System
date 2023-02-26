@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reg-PAGE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Register</h1>
+      <form method="post">
+        <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>FirstName</label>
+          </div>
+          <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>SecondName</label>
+          </div>
+          <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>NID Number</label>
+          </div>
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Email</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+
+        <!-- <div class="dropdown">
+            <button type="button" class="btn btn-primary  dropdown-toggle " data-toggle="dropdown">
+              Department
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Medicin</a>
+              <a class="dropdown-item" href="#">Dermatology</a>
+              <a class="dropdown-item" href="#">Neurology</a>
+            </div>
+          </div>  -->
+          <!-- <div class="row">
+            <div class="col-md-6 mb-4">
+
+              <select class="select">
+                <option value="1">Specialization</option>
+                <option value="2">Medicin</option>
+                <option value="3">Dermatology</option>
+                <option value="4">Neurology</option>
+              </select>
+            </div> -->
+            <div class="col-md-12">
+              <div class="form-group">
+                  <label class="control-label" for="appointmentfor">Specialization</label>
+                  <select id="appointmentfor" name="appointmentfor" class="form-control">
+                      <option value="Service#1">Medicin</option>
+                      <option value="Service#2">Dermatology</option>
+                      <option value="Service#3">Neurology</option>
+                      <option value="Service#4">others</option>
+                  </select>
+              </div>
+          </div>
+
+
+
+         <input type="submit" value="Register">
+          <div>
+            <br><br>
+          </div>
+      </form>
+    </div>
+
+  </body>
+</html>
